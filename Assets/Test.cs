@@ -36,7 +36,8 @@ public class Test : MonoBehaviour {
         // arrays[3] = 40;
         // arrays[4] = 50;
 
-        for (int i = 4; i >= 0; i--)
+        //for (int i = 4; i >= 0; i--)
+        for(int i= array.Length -1; i >= 0; i--)
         {
             Debug.Log(array[i]);
         }
